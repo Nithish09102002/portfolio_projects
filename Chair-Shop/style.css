@@ -167,6 +167,7 @@ img {
 .chair {
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.7);
   border-radius: 12px;
+  width:270px;
 }
 .chair-box {
   padding: 24px;
