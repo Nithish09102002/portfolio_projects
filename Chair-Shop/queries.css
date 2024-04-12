@@ -1,0 +1,87 @@
+
+@media (max-width: 34em) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  header {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 10px;
+    margin-top: 32px;
+  }
+
+  .header-text-box {
+    text-align: center;
+  }
+  h1 {
+    font-size: 32px;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 24px;
+  }
+
+  .btn--big,
+  .btn--small {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .features-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .testimonial-box {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .testimonial-box h2 {
+    font-size: 20px;
+  }
+
+  .chair img {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+  .chair-box {
+    padding: 16px;
+  }
+
+  .chair {
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .chair-details li {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+
+  .chair-details li:last-child {
+    margin-bottom: 0;
+  }
+
+  .chair-icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .chair-price {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
