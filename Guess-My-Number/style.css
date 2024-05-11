@@ -117,3 +117,68 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  main {
+    height: 64vh;
+  }
+
+  header {
+    height: 40vh;
+  }
+
+  .left {
+    width: 25rem;
+  }
+
+  .right {
+    width: 25rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .number {
+    font-size: 4rem;
+  }
+
+  .between {
+    font-size: 1rem;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .again {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .guess {
+    border: 3px solid #eee;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .message {
+    margin-bottom: 5rem;
+    height: 1rem;
+  }
+
+  .label-score {
+    margin-bottom: 1rem;
+  }
+}
