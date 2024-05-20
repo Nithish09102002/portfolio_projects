@@ -169,3 +169,54 @@ main {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  main {
+    height: 60rem;
+  }
+
+  .player {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .name {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .score {
+    font-size: 3.5rem;
+  }
+
+  .current {
+    width: 80%;
+  }
+
+  .btn {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.8rem;
+  }
+
+  .btn--new {
+    top: 14rem;
+  }
+
+  .btn--roll {
+    top: 20rem;
+  }
+
+  .btn--hold {
+    top: 26rem;
+  }
+
+  .dice {
+    top: 34rem;
+    height: 9rem;
+  }
+}
