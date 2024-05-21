@@ -195,6 +195,7 @@ const setLogOutTimer = function () {
       clearInterval(timer);
       containerApp.style.opacity = 0;
       labelWelcome.textContent = `Log in to get started`;
+      document.querySelector('.table-box').classList.remove('hide');
     }
     time--;
   };
@@ -225,7 +226,7 @@ btnLogin.addEventListener('click', function (e) {
 
   if (currentAccount?.pin === +inputLoginPin.value) {
     // Display UI and message
-    document.querySelector('.hide').style.display = 'none';
+ document.querySelector('.table-box').classList.add('hide');
 
     labelWelcome.textContent = `Welcome back, ${
       currentAccount.owner.split(' ')[0]
