@@ -56,13 +56,13 @@ btnScrol.addEventListener('click', function () {
 //   message.parentElement.removeChild(message);
 // });
 
-// document.querySelector('.nav__links').addEventListener('click', function (e) {
-//   e.preventDefault();
-//   if (e.target.classList.contains('nav__link')) {
-//     const id = e.target.getAttribute('href');
-//     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
-//   }
-// });
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  e.preventDefault();
+  if (e.target.classList.contains('nav__link')) {
+    const id = e.target.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  }
+});
 //////////////////////////
 const tabs = document.querySelectorAll('.operations__tab');
 const tabContainer = document.querySelector('.operations__tab-container');
